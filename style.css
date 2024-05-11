@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.cont {
+  margin-top: 10%;
+}
+.name {
+  width: 10rem;
+}
+.date {
+  width: 7.5rem;
+}
+.view,
+.main {
+  display: grid;
+  grid-template-columns: 10rem 7.5rem 5rem;
+  align-items: center;
+  gap: 0.8rem;
+}
+.main {
+  margin-bottom: 0.8rem;
+}
+.padd {
+  padding: 0.4rem 0.2rem;
+}
+.green,
+.red {
+  background: green;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+}
+.red {
+  background-color: darkred;
+}
